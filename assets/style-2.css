@@ -42,8 +42,8 @@ a:hover {
 }
 
 .profilepic {
-    width: 150px;
-    border-radius: 40%;
+    width: 220px;
+    border-radius: 20%;
     /* filter: grayscale(100%); */
 }
 
@@ -52,7 +52,8 @@ a:hover {
         /* width: 50%;
             margin-left: 50%;
             min-height:100%; */
-        position: fixed;
+        position: sticky;
+        top: 48px
     }
 }
 
@@ -66,8 +67,8 @@ a:hover {
     }
 
     .profilepic {
-        width: 90px;
-        border-radius: 40%;
+        width: 180px;
+        border-radius: 20%;
         padding-top: 0px !important;
         padding-bottom: 0px !important;
         /* filter: grayscale(100%); */
@@ -77,6 +78,26 @@ a:hover {
         padding-top: 18px !important;
     }
 
+}
+
+/* Black Scholar and LinkedIn icons */
+.fixed-posi .ai,
+.fixed-posi .fa-brands {
+    color: #000;
+}
+
+/* White CV lettering inside a black circle */
+.cv-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    font: bold 11px Arial, sans-serif;
+    vertical-align: middle;
 }
 
 /* .thisauthor {
