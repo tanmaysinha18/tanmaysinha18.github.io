@@ -1,9 +1,9 @@
 // Initialize font properties
-const fontname = "Ubuntu";
-const fontweights = [300, 400]
+const fontname = "Baskervville";
+const fontweights = [400, 600]
 
 // Color properties
-const basecolor = "#777";
+const basecolor = "#444";
 const accentcolor = "#a00";
 const highlightcolor = "#111";
 
@@ -12,8 +12,8 @@ const highlightcolor = "#111";
 // const highlight = "#111";
 
 // Body properties
-const bodyfontweight = 300;
-const bodyfontsize = "12pt";
+const bodyfontweight = 400;
+const bodyfontsize = "17px";
 const backgroundcolor = "#fff";
 
 // Link properties
